@@ -14,7 +14,7 @@ pair_t pair_new(int x, int y) {
 
 int pair_first(pair_t p) {
     int fst = p->fst;
-    return ;
+    return fst;
 }
 
 int pair_second(pair_t p) {
