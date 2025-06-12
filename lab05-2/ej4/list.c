@@ -83,8 +83,8 @@ list concat(list l, list l0) {
       p = p->next;
     }
     p->next = l0_copy;
+    }
     return l;
-  }
 }
 
 elem index(list l, int n) {
