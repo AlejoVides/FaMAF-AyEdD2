@@ -64,8 +64,8 @@ list concat(list l, list l0){
 
 elem index(list l, int n){
     int pos = (l->start + n) % MAX_LENGTH;
-    elem indx = l->a[pos];
-    return indx;
+    elem indice = l->a[pos];
+    return indice;
 }
 
 list take(list l, int n){
